@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building the application...'
                 sh '''
-                    g++ -o PES2UG22CS018-1 PES2UG22CS018-1.cpp
+                    g+ -o PES2UG22CS018-1 PES2UG22CS018-1.cpp
                     echo "Build completed successfully"
                 '''
             }
